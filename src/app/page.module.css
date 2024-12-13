@@ -2,8 +2,15 @@
   max-width: 80%;
   margin: 2% auto;
   padding: 2rem;
-  border: 1px dotted #e5e7eb;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+}
+
+.svgContainer {
+  margin: 0px 0px 50px;
+}
+
+.svgIcon {
+  max-width: 20%;
 }
 
 .title {
@@ -159,4 +166,134 @@
 .personaButton p {
   color: #6b7280;
   font-size: 0.875rem;
+}
+
+.titleContainer h1 {
+  font-size: 3em;
+  padding-bottom: 2em;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clearButton {
+  padding: 8px 16px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background-color: #ff0000;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.confirmButton {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #45a049;
+}
+
+.confirmButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.summaryContent {
+  text-align: left;
+  padding: 20px;
+}
+
+.summaryContent ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.summaryContent p {
+  margin: 10px 0;
+}
+
+.totalPrice {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modalButton {
+  padding: 8px 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.modalButton:hover {
+  background-color: #1976D2;
+}
+
+.contactForm {
+  margin: 50px 0;
+}
+
+.contactForm h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2196F3;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+.contactSection {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.orderSection {
+  margin-top: 20px;
 }
