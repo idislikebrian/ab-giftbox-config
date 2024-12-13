@@ -38,7 +38,7 @@ const giftBoxOptionsByPersona = {
       { name: "SS Earings (S, M L)", price: 0 },
     ],
     selfCare: [
-      { name: "Artisan Barber Big Mousse", price: 4, thirdItemPrice: 30 },
+      { name: "Artisan Barber Big Mousse", price: 9, thirdItemPrice: 30 },
       { name: "Artisan Barber Volume Hero", price: 0, thirdItemPrice: 25 },
       { name: "Artisan Barber Groom Guru", price: 0, thirdItemPrice: 25 },
     ],
@@ -53,7 +53,7 @@ const giftBoxOptionsByPersona = {
     topper: [{ name: "Figurine", price: 0 }],
     mysteryGift: [{ name: "Shark Tooth Necklace", price: 0 }],
     selfCare: [
-      { name: "Artisan Barber Big Mousse", price: 4, thirdItemPrice: 30 },
+      { name: "Artisan Barber Big Mousse", price: 9, thirdItemPrice: 30 },
       { name: "Artisan Barber Volume Hero", price: 0, thirdItemPrice: 25 },
       { name: "Artisan Barber Groom Guru", price: 0, thirdItemPrice: 25 },
       { name: "First Hand All Purpose Pomade", price: 0, thirdItemPrice: 25 },
@@ -74,7 +74,7 @@ const giftBoxOptionsByPersona = {
       { name: "SS Earings (S, M L)", price: 0 },
     ],
     selfCare: [
-      { name: "Artisan Barber Big Mousse", price: 0, thirdItemPrice: 30 },
+      { name: "Artisan Barber Big Mousse", price: 9, thirdItemPrice: 30 },
       { name: "Artisan Barber Volume Hero", price: 0, thirdItemPrice: 25 },
       { name: "Artisan Barber Groom Guru", price: 0, thirdItemPrice: 25 },
     ],
